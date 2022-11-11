@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/homepage/homepage",
+    "pages/singlemode/singlemode",
+    "pages/multimode/multimode",
+    "pages/rule/rule",
+    "pages/image/image",
+    "pages/rank/rank",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "中秋博饼",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#e6872a",
+    "list": [
+        {
+            "pagePath": "pages/rule/rule",
+            "text": "博饼规则"
+        },
+        {
+            "pagePath": "pages/homepage/homepage",
+            "text": "主页"
+        },
+        {
+            "pagePath": "pages/rank/rank",
+            "text": "排行榜单"
+        }
+    ]
+},
+"style": "v2",
+"sitemapLocation": "sitemap.json"
+
+}

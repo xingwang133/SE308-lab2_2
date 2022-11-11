@@ -1,0 +1,15 @@
+<!--pages/homepage/homepage.wxml-->
+
+<view>
+    <image class="bg" src="../image/mainBackground.jpg"></image>
+    
+</view>
+<button class="rulebt">
+    <image class="rule" src="../image/规则底.png" bindtap="JumpToRule"></image>
+</button>
+<button class="optbt1">
+    <image class="opt" src="../image/单人模式.png" bindtap="JumpToSingle"></image>
+</button>
+<button class="optbt2">
+    <image class="opt" src="../image/多人模式.png" bindtap="JumpToMulti"></image>
+</button>

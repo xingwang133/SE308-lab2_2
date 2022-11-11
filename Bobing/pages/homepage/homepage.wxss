@@ -1,0 +1,95 @@
+/* pages/homepage/homepage.wxss */
+page {
+    height: 100%
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+.title {
+    width: 540rpx;
+    height: 180rpx;
+    padding-top: 150rpx;
+    position: absolute;
+    z-index: 1;
+}
+
+.titlebg {
+    width: 550rpx;
+    height: 550rpx;
+    position: fixed;
+    background-size: 100% 100%;
+    z-index: 0;
+
+}
+
+.decorate {
+    width: 400rpx;
+    height: 450rpx;
+    padding-left: 400rpx;
+    position: fixed;
+    z-index: 0;
+}
+
+.rule {
+    width: 230rpx;
+    height: 200rpx;
+    border: 0;
+    border-style: hidden;
+}
+
+.rulebt {
+    position: absolute;
+    width: 200rpx;
+    height: 350rpx;
+    top: 400rpx;
+    background-color: transparent;
+}
+
+.opt {
+    width: 250rpx;
+    height: 250rpx;
+    border: 0;
+    border-style: hidden;
+}
+
+.optbt1 {
+    position: absolute;
+    width: 200rpx;
+    height: 350rpx;
+    top: 700rpx;
+    left: -10rpx;
+    background-color:transparent;
+}
+
+.optbt2 {
+    position: absolute;
+    width: 200rpx;
+    height: 350rpx;
+    top: 700rpx;
+    right: 10rpx;
+    background-color:transparent;
+}
+
+.optbt3 {
+    position: absolute;
+    width: 200rpx;
+    height: 350rpx;
+    bottom: 50rpx;
+    left: -10rpx;
+    background-color:transparent;
+}
+
+.optbt4 {
+    position: absolute;
+    width: 200rpx;
+    height: 350rpx;
+    bottom:50rpx;
+    right: 10rpx;
+    background-color:transparent;
+}

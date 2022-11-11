@@ -1,0 +1,9 @@
+<!--pages/rule/rule.wxml-->
+<view>
+    <image class="bg" src="../image/背景.png"></image>
+    <image class="title" src="../image/博饼规则.png"></image>
+    <image class="dtr" src="../image/detailrule.jfif"></image>
+</view>
+<button class="bk"><image class="back" src="../image/back.png" bindtap="ToHome"></image>
+</button>
+    
